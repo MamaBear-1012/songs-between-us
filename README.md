@@ -1,28 +1,29 @@
-<table>
-<tr>
-<td>
+<table style="border-collapse:separate; border-spacing:0; margin-bottom:24px; box-shadow:0 2px 8px rgba(0,0,0,0.06); border-radius:12px; overflow:hidden; border:1px solid #e1e4e8; width:100%;">
+  <tr>
+    <td style="padding:20px 24px; vertical-align:middle; width:60%;">
 
-🌿 **songs-between-us**
+      🌿 **songs-between-us**
 
-A weekly album letter exchange by Lana & Kayla
+      A weekly album letter exchange by Lana & Kayla  
 
-A mother–daughter project told through music — one album at a time.
+      A mother–daughter project told through music — one album at a time.
 
-Each week, we pick an album for the other to listen to.  
-Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.
+      Each week, we pick an album for the other to listen to.  
+      Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.
 
-This repository is our shared archive — a little musical time capsule we’re building together.
+      This repository is our shared archive — a little musical time capsule we’re building together.
 
-## Kayla & Lana 💛
+      ## Kayla & Lana 💛
 
-</td>
-<td style="padding-left: 20px;">
+    </td>
+    <td style="padding:20px; vertical-align:middle; text-align:center; width:40%; border-left:1px solid #e1e4e8;">
 
-<img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" style="border-radius:12px;" />
+      <img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" style="border-radius:12px;" />
 
-</td>
-</tr>
+    </td>
+  </tr>
 </table>
+
 
 
 
