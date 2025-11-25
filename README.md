@@ -2,20 +2,21 @@
   <tr>
     <td style="padding:20px 24px; vertical-align:middle; width:60%;">
 
-      🌿 **songs-between-us**
+      🌿 <strong>songs-between-us</strong>
 
-      A weekly album letter exchange by Lana & Kayla  
+      <p>A weekly album letter exchange by Lana & Kayla</p>
 
-      A mother–daughter project told through music — one album at a time.
+      <p>A mother–daughter project told through music — one album at a time.</p>
 
-      Each week, we pick an album for the other to listen to.  
-      Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.
+      <p>Each week, we pick an album for the other to listen to.<br>
+      Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.</p>
 
-      This repository is our shared archive — a little musical time capsule we’re building together.
+      <p>This repository is our shared archive — a little musical time capsule we’re building together.</p>
 
-      ## Kayla & Lana 💛
+      <h2>Kayla & Lana 💛</h2>
 
     </td>
+
     <td style="padding:20px; vertical-align:middle; text-align:center; width:40%; border-left:1px solid #e1e4e8;">
 
       <img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" style="border-radius:12px;" />
@@ -23,7 +24,6 @@
     </td>
   </tr>
 </table>
-
 
 
 
