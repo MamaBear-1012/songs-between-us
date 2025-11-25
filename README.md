@@ -225,10 +225,10 @@ This repository is our shared archive — a little musical time capsule we’re 
 
 ## 💬 Why We're Doing This
 
-Music has always been part of our story — long drives, kitchen dancing, concerts, and quiet moments.  
-This project gives us a way to keep sharing, even across distance and busy lives.
-
-It’s a ritual, a conversation, and a little gift we give each other every week.
+Week by week, album by album, this little project keeps finding its way deeper into our lives.  
+Another week, another album, another letter —  
+the same two people, the same love of music,  
+the same small ritual we keep choosing together.
 
 
 ## ✨ Thank You
@@ -237,4 +237,4 @@ If you stumble on this repo by accident:
 Welcome to a small corner of our world.
 
 If you’re one of us:  
-I love you. Here’s the next album.
+I love you. Stay tuned for the next album.
