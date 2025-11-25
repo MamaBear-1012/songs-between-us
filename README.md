@@ -11,7 +11,8 @@ Then we write a letter about why it matters, what it reminds us of, or what we h
 
 This repository is our shared archive — a little musical time capsule we’re building together.
 
-Kayla & Lana 💛
+### Kayla & Lana 💛
+
 ---
 
 ## 🎧 **Weekly Album Letters**
