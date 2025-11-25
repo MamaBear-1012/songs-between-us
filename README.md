@@ -2,7 +2,7 @@
 
 A weekly album letter exchange by Lana & Kayla
 
-<img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" align="right" style="border-radius:12px; margin-left:15px; margin-bottom:10px;" />
+<img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" align="right" />
 
 A mother–daughter project told through music — one album at a time.
 
