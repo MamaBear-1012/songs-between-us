@@ -11,12 +11,10 @@ Then we write a letter about why it matters, what it reminds us of, or what we h
 
 This repository is our shared archive — a little musical time capsule we’re building together.
 
-### Kayla & Lana 💛
+## Kayla & Lana 💛
 
 
-
-## 🎧 **Weekly Album Letters**
-
+## 🎧 Weekly Album Letters
 
 ### **Week 1**
 - [Kayla — *Talon of the Hawk*](letters/week-01-kayla-talon-of-the-hawk.md)  
