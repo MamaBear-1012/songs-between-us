@@ -1,30 +1,16 @@
-<table style="border-collapse:separate; border-spacing:0; margin-bottom:24px; box-shadow:0 2px 8px rgba(0,0,0,0.06); border-radius:12px; overflow:hidden; border:1px solid #e1e4e8; width:100%;">
-  <tr>
-    <td style="padding:20px 24px; vertical-align:middle; width:60%;">
+# 🌿 songs-between-us
 
-      🌿 <strong>songs-between-us</strong>
+A weekly album letter exchange by Lana & Kayla.
 
-      <p>A weekly album letter exchange by Lana & Kayla</p>
+A mother–daughter project told through music — one album at a time.
 
-      <p>A mother–daughter project told through music — one album at a time.</p>
+Each week, we pick an album for the other to listen to. Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.
 
-      <p>Each week, we pick an album for the other to listen to.<br>
-      Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.</p>
+This repository is our shared archive — a little musical time capsule we’re building together.
 
-      <p>This repository is our shared archive — a little musical time capsule we’re building together.</p>
+<img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" />
 
-      <h2>Kayla & Lana 💛</h2>
-
-    </td>
-
-    <td style="padding:20px; vertical-align:middle; text-align:center; width:40%; border-left:1px solid #e1e4e8;">
-
-      <img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" style="border-radius:12px;" />
-
-    </td>
-  </tr>
-</table>
-
+## Kayla & Lana 💛
 
 
 ## 🎧 Weekly Album Letters
@@ -61,30 +47,27 @@
 - [Kayla — *Fevers and Mirrors*](letters/week-08-kayla-fevers-and-mirrors.md)  
 - [Lana — *The Head on the Door*](letters/week-08-lana-the-head-on-the-door.md)
 
----
 
-## 💬 **Why We're Doing This**
+## 💬 Why We're Doing This
+
 Music has always been part of our story — long drives, kitchen dancing, concerts, and quiet moments.  
 This project gives us a way to keep sharing, even across distance and busy lives.
 
 It’s a ritual, a conversation, and a little gift we give each other every week.
 
----
 
-## 📁 **Project Structure**
+## 📁 Project Structure
 
 - **/data** — the cleaned dataset of all albums  
 - **/letters** — weekly letters in Markdown  
 - **IMG_3133.jpg** — our project photo  
 - **README.md** — this page
 
----
 
-## ✨ **Thank you for reading**
+## ✨ Thank You
+
 If you stumble on this repo by accident:  
 Welcome to a small corner of our world.
 
 If you’re one of us:  
 I love you. Here’s the next album.
-
-— **Lana & Kayla**
