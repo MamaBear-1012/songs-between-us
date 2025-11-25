@@ -156,9 +156,9 @@
       <h1 class="sbw-hero-title">🌿 songs-between-us</h1>
       <p class="sbw-hero-sub">A weekly album letter exchange by Lana &amp; Kayla.</p>
 
-      <p>A mother–daughter project told through music — one album at a time.</p>
+      <p>A mother-daughter project told through music - one album at a time.</p>
       <p>Each week, we pick an album for the other to listen to. Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.</p>
-      <p>This site is our shared archive — a little musical time capsule we’re building together.</p>
+      <p>This site is our shared archive - a little musical time capsule we’re building together.</p>
 
       <p><strong>Kayla &amp; Lana 💛</strong></p>
     </div>
@@ -412,9 +412,9 @@
   <!-- Why / Thank You -->
   <section class="sbw-text-block">
     <h2>💭 Why We’re Doing This</h2>
-    <p>Music has always been part of our story — long drives, kitchen dancing, concerts, and quiet moments. This project gives us a way to keep sharing, even across distance and busy lives.</p>
+    <p>Music has always been part of our story - long drives, kitchen dancing, concerts, and quiet moments. This project gives us a way to keep sharing, even across distance and busy lives.</p>
     <p>Week by week, album by album, this little project keeps finding its way deeper into our lives.<br>
-    Another week, another album, another letter — the same two people, the same love of music, the same small ritual we keep choosing together.</p>
+    Another week, another album, another letter - the same two people, the same love of music, the same small ritual we keep choosing together.</p>
 
     <div class="sbw-footer">
       <h2>✨ Thank You</h2>
