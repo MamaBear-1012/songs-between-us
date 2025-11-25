@@ -1,17 +1,29 @@
-🌿 songs-between-us
+<table>
+<tr>
+<td>
+
+🌿 **songs-between-us**
 
 A weekly album letter exchange by Lana & Kayla
 
-<img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" align="right" />
-
 A mother–daughter project told through music — one album at a time.
 
-Each week, we pick an album for the other to listen to.
+Each week, we pick an album for the other to listen to.  
 Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.
 
 This repository is our shared archive — a little musical time capsule we’re building together.
 
 ## Kayla & Lana 💛
+
+</td>
+<td style="padding-left: 20px;">
+
+<img src="IMG_3133.jpg" alt="Kayla & Lana" width="260" style="border-radius:12px;" />
+
+</td>
+</tr>
+</table>
+
 
 
 ## 🎧 Weekly Album Letters
