@@ -17,6 +17,7 @@ This repository is our shared archive — a little musical time capsule we’re 
 
 ## 🎧 **Weekly Album Letters**
 
+
 ### **Week 1**
 - [Kayla — *Talon of the Hawk*](letters/week-01-kayla-talon-of-the-hawk.md)  
 - [Lana — *A Night at the Opera*](letters/week-01-lana-a-night-at-the-opera.md)
