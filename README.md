@@ -231,14 +231,6 @@ This project gives us a way to keep sharing, even across distance and busy lives
 It’s a ritual, a conversation, and a little gift we give each other every week.
 
 
-## 📁 Project Structure
-
-- **/data** — the cleaned dataset of all albums  
-- **/letters** — weekly letters in Markdown  
-- **IMG_3133.jpg** — our project photo  
-- **README.md** — this page
-
-
 ## ✨ Thank You
 
 If you stumble on this repo by accident:  
