@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Week 1 · songs-between-us</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Week 1 • songs-between-us</title>
+
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -11,14 +11,18 @@
       color: #111827;
       margin: 0;
     }
+
     .sbw-wrapper {
       max-width: 960px;
       margin: 0 auto;
       padding: 2.5rem 1rem 4rem;
     }
+
+    /* Top bar */
     .sbw-topbar {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       margin-bottom: 1.5rem;
+      color: #6b7280;
     }
     .sbw-topbar a {
       color: #2563eb;
@@ -27,68 +31,116 @@
     .sbw-topbar a:hover {
       text-decoration: underline;
     }
+
+    /* Hero */
     .sbw-hero {
       background: #ffffff;
       border-radius: 18px;
       border: 1px solid #e5e7eb;
       box-shadow: 0 14px 35px rgba(15, 23, 42, 0.06);
       padding: 1.75rem 1.9rem;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
+
     .sbw-hero h1 {
-      margin: 0 0 0.25rem;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
+      margin: 0 0 0.5rem;
     }
+
     .sbw-hero p {
-      margin: 0.25rem 0;
-      color: #4b5563;
+      margin: 0 0 0.7rem;
     }
+
     .sbw-week-heading {
-      font-size: 1.4rem;
+      font-size: 1.25rem;
       margin: 0 0 1rem;
     }
+
+    /* Album cards */
     .sbw-album-card {
+      display: flex;
+      gap: 0.75rem;
       background: #ffffff;
       border-radius: 14px;
       border: 1px solid #e5e7eb;
+      padding: 0.75rem 0.9rem;
       box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
-      padding: 0.9rem 1.1rem;
-      display: flex;
-      gap: 0.75rem;
-      margin-bottom: 0.9rem;
-      align-items: center;
+      margin-bottom: 1rem;
     }
+
     .sbw-album-cover img {
-      width: 70px;
-      height: 70px;
-      border-radius: 10px;
+      width: 90px;
+      height: 90px;
+      border-radius: 12px;
       object-fit: cover;
     }
+
     .sbw-album-meta {
-      font-size: 0.95rem;
+      font-size: 0.92rem;
     }
+
     .sbw-album-meta strong {
       font-weight: 600;
     }
-    .sbw-letter-links {
-      margin-top: 0.25rem;
-    }
+
     .sbw-letter-links a {
       color: #2563eb;
       text-decoration: none;
-      font-weight: 500;
+      font-size: 0.9rem;
     }
+
     .sbw-letter-links a:hover {
       text-decoration: underline;
     }
+
+    /* Letter sections */
+    .sbw-letter-section {
+      background: #ffffff;
+      border-radius: 16px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
+      padding: 1.5rem 1.75rem;
+      margin-top: 2rem;
+    }
+
+    .sbw-letter-section h3 {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+      font-size: 1.15rem;
+    }
+
+    .sbw-letter-section p {
+      margin: 0 0 0.75rem;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 640px) {
+      .sbw-wrapper {
+        padding-top: 1.75rem;
+      }
+      .sbw-hero {
+        padding: 1.25rem 1.2rem 1.5rem;
+      }
+      .sbw-album-card {
+        align-items: flex-start;
+      }
+      .sbw-album-cover img {
+        width: 70px;
+        height: 70px;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="sbw-wrapper">
+
+    <!-- Back link -->
     <div class="sbw-topbar">
-      ← <a href="./">Back to all weeks</a>
+      <a href="./">← back to all weeks</a>
     </div>
 
+    <!-- Hero / intro -->
     <section class="sbw-hero">
       <h1>Week 1 · songs-between-us</h1>
       <p>Kayla &amp; Lana’s first week of album letters.</p>
@@ -98,34 +150,65 @@
     <h2 class="sbw-week-heading">Albums &amp; Letters</h2>
 
     <!-- Kayla's pick -->
-    <div class="sbw-album-card" id="kayla">
+    <div class="sbw-album-card">
       <div class="sbw-album-cover">
-        <img src="covers/week-01-kayla-talon-of-the-hawk.jpg" alt="Talon of the Hawk cover" />
+        <img src="covers/week-01-kayla-talon-of-the-hawk.jpg" alt="Talon of the Hawk cover">
       </div>
+
       <div class="sbw-album-meta">
         <div><strong>From:</strong> Kayla</div>
         <div><strong>Artist:</strong> The Front Bottoms</div>
         <div><strong>Album:</strong> <em>Talon of the Hawk</em></div>
+
         <div class="sbw-letter-links">
-          <a href="letters/week-01-kayla-talon-of-the-hawk/">Read Kayla’s letter →</a>
+          <!-- Scrolls to Kayla's letter section below -->
+          <a href="#kayla-letter">Read Kayla’s letter →</a>
         </div>
       </div>
     </div>
 
     <!-- Lana's pick -->
-    <div class="sbw-album-card" id="lana">
+    <div class="sbw-album-card">
       <div class="sbw-album-cover">
-        <img src="covers/week-01-lana-a-night-at-the-opera.jpg" alt="A Night at the Opera cover" />
+        <img src="covers/week-01-lana-a-night-at-the-opera.jpg" alt="A Night at the Opera cover">
       </div>
+
       <div class="sbw-album-meta">
         <div><strong>From:</strong> Lana</div>
         <div><strong>Artist:</strong> Queen</div>
         <div><strong>Album:</strong> <em>A Night at the Opera</em></div>
+
         <div class="sbw-letter-links">
-          <a href="letters/week-01-lana-a-night-at-the-opera/">Read Lana’s letter →</a>
+          <!-- Scrolls to Lana's letter section below -->
+          <a href="#lana-letter">Read Lana’s letter →</a>
         </div>
       </div>
     </div>
+
+    <!-- Kayla letter section -->
+    <section class="sbw-letter-section" id="kayla-letter">
+      <h3>Kayla’s Letter — <em>Talon of the Hawk</em></h3>
+
+      <!-- Replace these paragraphs with the real Week 1 letter text -->
+      <p><em>(Paste Kayla’s full Week 1 letter here.)</em></p>
+      <!-- Example formatting:
+      <p>Dear Mom, ...</p>
+      <p>Love, Kayla</p>
+      -->
+    </section>
+
+    <!-- Lana letter section -->
+    <section class="sbw-letter-section" id="lana-letter">
+      <h3>Lana’s Letter — <em>A Night at the Opera</em></h3>
+
+      <!-- Replace these paragraphs with the real Week 1 letter text -->
+      <p><em>(Paste Lana’s full Week 1 letter here.)</em></p>
+      <!-- Example formatting:
+      <p>Dear Kayla, ...</p>
+      <p>Love, Mom</p>
+      -->
+    </section>
   </div>
 </body>
 </html>
+
