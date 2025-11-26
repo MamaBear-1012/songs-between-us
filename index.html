@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>songs-between-us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- songs-between-us website -->
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f6f5fb;
+      color: #111827;
+      margin: 0;
+    }
+
+    .sbw-wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2.5rem 1rem 4rem;
+    }
+
+    /* NAV BAR */
+    .sbw-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 0.75rem;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      font-size: 0.92rem;
+      color: #6b7280;
+    }
+
+    .sbw-nav-label {
+      font-weight: 600;
+      color: #4b5563;
+      margin-right: 0.25rem;
+    }
+
+    .sbw-nav a {
+      color: #2563eb;
+      text-decoration: none;
+      padding: 0.1rem 0;
+    }
+
+    .sbw-nav a:hover {
+      text-decoration: underline;
+    }
+
+    .sbw-hero {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.75rem;
+      align-items: flex-start;
+      background: #ffffff;
+      border-radius: 18px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 14px 35px rgba(15, 23, 42, 0.06);
+      padding: 1.75rem 1.9rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .sbw-hero-text {
+      flex: 1 1 260px;
+      min-width: 260px;
+    }
+
+    .sbw-hero-title {
+      font-size: 1.9rem;
+      margin: 0 0 0.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .sbw-hero-sub {
+      margin: 0 0 1rem;
+      color: #4b5563;
+    }
+
+    .sbw-hero-text p {
+      margin: 0 0 0.65rem;
+    }
+
+    .sbw-hero-photo {
+      flex: 0 0 auto;
+    }
+
+    .sbw-hero-photo img {
+      max-width: 260px;
+      border-radius: 16px;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18);
+      border: 3px solid #ffffff;
+    }
+
+    .sbw-section-title {
+      font-size: 1.4rem;
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .sbw-week {
+      margin-bottom: 2rem;
+    }
+
+    .sbw-week h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.6rem;
+      color: #374151;
+    }
+
+    .sbw-album-card {
+      display: flex;
+      gap: 0.75rem;
+      background: #ffffff;
+      border-radius: 14px;
+      border: 1px solid #e5e7eb;
+      padding: 0.75rem 0.9rem;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+      margin-bottom: 0.7rem;
+    }
+
+    .sbw-album-cover img {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .sbw-album-meta {
+      font-size: 0.92rem;
+    }
+
+    .sbw-album-meta strong {
+      font-weight: 600;
+    }
+
+    .sbw-album-meta em {
+      font-style: italic;
+    }
+
+    .sbw-album-meta a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .sbw-album-meta a:hover {
+      text-decoration: underline;
+    }
+
+    .sbw-text-block {
+      background: #ffffff;
+      border-radius: 16px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
+      padding: 1.5rem 1.75rem;
+      margin-top: 1.75rem;
+    }
+
+    .sbw-text-block h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+    }
+
+    .sbw-text-block p {
+      margin: 0 0 0.75rem;
+    }
+
+    .sbw-footer {
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 640px) {
+      .sbw-hero {
+        padding: 1.25rem 1.2rem 1.5rem;
+      }
+      .sbw-hero-photo img {
+        max-width: 210px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sbw-wrapper">
+
+    <!-- NAV -->
+    <nav class="sbw-nav">
+      <span class="sbw-nav-label">Jump to:</span>
+      <a href="#week-1">Week&nbsp;1</a> ·
+      <a href="#week-2">Week&nbsp;2</a> ·
+      <a href="#week-3">Week&nbsp;3</a> ·
+      <a href="#week-4">Week&nbsp;4</a> ·
+      <a href="#week-5">Week&nbsp;5</a> ·
+      <a href="#week-6">Week&nbsp;6</a> ·
+      <a href="#week-7">Week&nbsp;7</a> ·
+      <a href="#week-8">Week&nbsp;8</a> ·
+      <a href="about.html">About&nbsp;Us</a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="sbw-hero">
+      <div class="sbw-hero-text">
+        <h1 class="sbw-hero-title">🌿 songs-between-us</h1>
+        <p class="sbw-hero-sub">A weekly album letter exchange by Lana &amp; Kayla.</p>
+
+        <p>A mother–daughter project told through music — one album at a time.</p>
+        <p>Each week, we pick an album for the other to listen to. Then we write a letter about why it matters, what it reminds us of, or what we hope the other person hears in it.</p>
+        <p>This site is our shared archive — a little musical time capsule we’re building together.</p>
+
+        <p><strong>Kayla &amp; Lana 💛</strong></p>
+      </div>
+
+      <div class="sbw-hero-photo">
+        <img src="IMG_3133.jpg" alt="Kayla &amp; Lana" />
+      </div>
+    </section>
+
+    <!-- Weekly Albums -->
+    <section>
+      <h2 class="sbw-section-title">🎧 Weekly Album Letters</h2>
+
+      <!-- Week 1 -->
+      <div class="sbw-week" id="week-1">
+        <h2>Week 1</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-01-kayla-talon-of-the-hawk.jpg" alt="Talon of the Hawk cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> The Front Bottoms<br />
+            <strong>Album:</strong>
+            <a href="letters/week-01-kayla-talon-of-the-hawk.html"><em>Talon of the Hawk</em></a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-01-lana-a-night-at-the-opera.jpg" alt="A Night at the Opera cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> Queen<br />
+            <strong>Album:</strong>
+            <a href="letters/week-01-lana-a-night-at-the-opera.html"><em>A Night at the Opera</em></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 2 -->
+      <div class="sbw-week" id="week-2">
+        <h2>Week 2</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-02-kayla-a-black-mile-to-the-surface.jpg" alt="A Black Mile To The Surface cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> Manchester Orchestra<br />
+            <strong>Album:</strong>
+            <a href="letters/week-02-kayla-a-black-mile-to-the-surface.html"><em>A Black Mile To The Surface</em></a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-02-lana-destroyer.jpg" alt="Destroyer cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> Kiss<br />
+            <strong>Album:</strong>
+            <a href="letters/week-02-lana-destroyer.html"><em>Destroyer</em></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 3 -->
+      <div class="sbw-week" id="week-3">
+        <h2>Week 3</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-03-kayla-lifted-or-the-story-is-in-the-soil-keep-your-ear-to-the-ground.jpg" alt="Lifted cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> Bright Eyes<br />
+            <strong>Album:</strong>
+            <a href="letters/week-03-kayla-lifted-or-the-story-is-in-the-soil-keep-your-ear-to-the-ground.html">
+              <em>LIFTED or The Story Is in the Soil, Keep Your Ear to the Ground</em>
+            </a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-03-lana-gold.jpg" alt="Gold cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> Neil Diamond<br />
+            <strong>Album:</strong>
+            <a href="letters/week-03-lana-gold.html"><em>Gold</em></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 4 -->
+      <div class="sbw-week" id="week-4">
+        <h2>Week 4</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-04-kayla-the-albatross.jpg" alt="The Albatross cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> Foxing<br />
+            <strong>Album:</strong>
+            <a href="letters/week-04-kayla-the-albatross.html"><em>The Albatross</em></a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-04-lana-van-halen.jpg" alt="Van Halen cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> Van Halen<br />
+            <strong>Album:</strong>
+            <a href="letters/week-04-lana-van-halen.html"><em>Van Halen</em></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 5 -->
+      <div class="sbw-week" id="week-5">
+        <h2>Week 5</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-05-kayla-somewhere-at-the-bottom-of-the-river-between-vega-and-altair.jpg" alt="Somewhere at the Bottom... cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> La Dispute<br />
+            <strong>Album:</strong>
+            <a href="letters/week-05-kayla-somewhere-at-the-bottom-of-the-river-between-vega-and-altair.html">
+              <em>Somewhere at the Bottom of the River Between Vega and Altair</em>
+            </a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-05-lana-moving-pictures.jpg" alt="Moving Pictures cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> Rush<br />
+            <strong>Album:</strong>
+            <a href="letters/week-05-lana-moving-pictures.html"><em>Moving Pictures</em></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 6 -->
+      <div class="sbw-week" id="week-6">
+        <h2>Week 6</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-06-kayla-you-re-gonna-miss-it-all.jpg" alt="You're Gonna Miss It All cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> Modern Baseball<br />
+            <strong>Album:</strong>
+            <a href="letters/week-06-kayla-you-re-gonna-miss-it-all.html"><em>You’re Gonna Miss It All</em></a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-06-lana-beauty-and-the-beat.jpg" alt="Beauty and the Beat cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> The Go-Go's<br />
+            <strong>Album:</strong>
+            <a href="letters/week-06-lana-beauty-and-the-beat.html"><em>Beauty and the Beat</em></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 7 -->
+      <div class="sbw-week" id="week-7">
+        <h2>Week 7</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-07-kayla-hit-me-hard-and-soft.jpg" alt="Hit Me Hard and Soft cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> Billie Eilish<br />
+            <strong>Album:</strong>
+            <a href="letters/week-07-kayla-hit-me-hard-and-soft.html"><em>Hit Me Hard and Soft</em></a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-07-lana-upstairs-at-eric-s.jpg" alt="Upstairs at Eric's cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> Yaz<br />
+            <strong>Album:</strong>
+            <a href="letters/week-07-lana-upstairs-at-eric-s.html"><em>Upstairs at Eric’s</em></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 8 -->
+      <div class="sbw-week" id="week-8">
+        <h2>Week 8</h2>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-08-kayla-fevers-and-mirrors.jpg" alt="Fevers and Mirrors cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Kayla<br />
+            <strong>Artist:</strong> Bright Eyes<br />
+            <strong>Album:</strong>
+            <a href="letters/week-08-kayla-fevers-and-mirrors.html"><em>Fevers and Mirrors</em></a>
+          </div>
+        </div>
+
+        <div class="sbw-album-card">
+          <div class="sbw-album-cover">
+            <img src="covers/week-08-lana-the-head-on-the-door.jpg" alt="The Head on the Door cover" />
+          </div>
+          <div class="sbw-album-meta">
+            <strong>From:</strong> Lana<br />
+            <strong>Artist:</strong> The Cure<br />
+            <strong>Album:</strong>
+            <a href="letters/week-08-lana-the-head-on-the-door.html"><em>The Head on the Door</em></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why / Thank You -->
+    <section class="sbw-text-block">
+      <h2>💭 Why We’re Doing This</h2>
+      <p>Music has always been part of our story — long drives, kitchen dancing, concerts, and quiet moments. This project gives us a way to keep sharing, even across distance and busy lives.</p>
+      <p>Week by week, album by album, this little project keeps finding its way deeper into our lives.<br />
+      Another week, another album, another letter — the same two people, the same love of music, the same small ritual we keep choosing together.</p>
+
+      <div class="sbw-footer">
+        <h2>✨ Thank You</h2>
+        <p>If you stumble on this repo by accident:<br />
+        Welcome to a small corner of our world.</p>
+        <p>If you’re one of us:<br />
+        I love you. Stay tuned for the next album.</p>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
