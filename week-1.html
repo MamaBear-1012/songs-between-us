@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week 1 · songs-between-us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f6f5fb;
+      color: #111827;
+      margin: 0;
+    }
+    .sbw-wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2.5rem 1rem 4rem;
+    }
+    .sbw-topbar {
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+    .sbw-topbar a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .sbw-topbar a:hover {
+      text-decoration: underline;
+    }
+    .sbw-hero {
+      background: #ffffff;
+      border-radius: 18px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 14px 35px rgba(15, 23, 42, 0.06);
+      padding: 1.75rem 1.9rem;
+      margin-bottom: 2rem;
+    }
+    .sbw-hero h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.7rem;
+    }
+    .sbw-hero p {
+      margin: 0.25rem 0;
+      color: #4b5563;
+    }
+    .sbw-week-heading {
+      font-size: 1.4rem;
+      margin: 0 0 1rem;
+    }
+    .sbw-album-card {
+      background: #ffffff;
+      border-radius: 14px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+      padding: 0.9rem 1.1rem;
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 0.9rem;
+      align-items: center;
+    }
+    .sbw-album-cover img {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .sbw-album-meta {
+      font-size: 0.95rem;
+    }
+    .sbw-album-meta strong {
+      font-weight: 600;
+    }
+    .sbw-letter-links {
+      margin-top: 0.25rem;
+    }
+    .sbw-letter-links a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .sbw-letter-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="sbw-wrapper">
+    <div class="sbw-topbar">
+      ← <a href="./">Back to all weeks</a>
+    </div>
+
+    <section class="sbw-hero">
+      <h1>Week 1 · songs-between-us</h1>
+      <p>Kayla &amp; Lana’s first week of album letters.</p>
+      <p>This week set the tone for the whole project — swapping two albums that feel like home.</p>
+    </section>
+
+    <h2 class="sbw-week-heading">Albums &amp; Letters</h2>
+
+    <!-- Kayla's pick -->
+    <div class="sbw-album-card" id="kayla">
+      <div class="sbw-album-cover">
+        <img src="covers/week-01-kayla-talon-of-the-hawk.jpg" alt="Talon of the Hawk cover" />
+      </div>
+      <div class="sbw-album-meta">
+        <div><strong>From:</strong> Kayla</div>
+        <div><strong>Artist:</strong> The Front Bottoms</div>
+        <div><strong>Album:</strong> <em>Talon of the Hawk</em></div>
+        <div class="sbw-letter-links">
+          <a href="letters/week-01-kayla-talon-of-the-hawk/">Read Kayla’s letter →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lana's pick -->
+    <div class="sbw-album-card" id="lana">
+      <div class="sbw-album-cover">
+        <img src="covers/week-01-lana-a-night-at-the-opera.jpg" alt="A Night at the Opera cover" />
+      </div>
+      <div class="sbw-album-meta">
+        <div><strong>From:</strong> Lana</div>
+        <div><strong>Artist:</strong> Queen</div>
+        <div><strong>Album:</strong> <em>A Night at the Opera</em></div>
+        <div class="sbw-letter-links">
+          <a href="letters/week-01-lana-a-night-at-the-opera/">Read Lana’s letter →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
