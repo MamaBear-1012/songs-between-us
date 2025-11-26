@@ -145,10 +145,47 @@
     .sbw-hero-photo img {
       max-width: 210px;
     }
+  }  .sbw-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    align-items: center;
+    margin-bottom: 1.4rem;
+    font-size: 0.92rem;
+    color: #6b7280;
   }
+
+  .sbw-nav a {
+    color: #2563eb;
+    text-decoration: none;
+    padding: 0.1rem 0;
+  }
+
+  .sbw-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .sbw-nav-label {
+    font-weight: 600;
+    color: #4b5563;
+    margin-right: 0.25rem;
+  }
+
 </style>
 
 <div class="sbw-wrapper">
+  <nav class="sbw-nav">
+    <span class="sbw-nav-label">Jump to:</span>
+    <a href="#week-1">Week 1</a> ·
+    <a href="#week-2">Week 2</a> ·
+    <a href="#week-3">Week 3</a> ·
+    <a href="#week-4">Week 4</a> ·
+    <a href="#week-5">Week 5</a> ·
+    <a href="#week-6">Week 6</a> ·
+    <a href="#week-7">Week 7</a> ·
+    <a href="#week-8">Week 8</a> ·
+    <a href="about.html">About Us</a>
+  </nav>
 
   <!-- Hero -->
   <section class="sbw-hero">
@@ -173,7 +210,7 @@
     <h2 class="sbw-section-title">🎧 Weekly Album Letters</h2>
 
     <!-- Week 1 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-1">
       <h2>Week 1</h2>
 
       <div class="sbw-album-card">
@@ -202,7 +239,7 @@
     </div>
 
     <!-- Week 2 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-2">
       <h2>Week 2</h2>
 
       <div class="sbw-album-card">
@@ -231,7 +268,7 @@
     </div>
 
     <!-- Week 3 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-3">
       <h2>Week 3</h2>
 
       <div class="sbw-album-card">
@@ -262,7 +299,7 @@
     </div>
 
     <!-- Week 4 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-4">
       <h2>Week 4</h2>
 
       <div class="sbw-album-card">
@@ -291,7 +328,7 @@
     </div>
 
     <!-- Week 5 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-5">
       <h2>Week 5</h2>
 
       <div class="sbw-album-card">
@@ -322,7 +359,7 @@
     </div>
 
     <!-- Week 6 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-6">
       <h2>Week 6</h2>
 
       <div class="sbw-album-card">
@@ -351,7 +388,7 @@
     </div>
 
     <!-- Week 7 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-7">
       <h2>Week 7</h2>
 
       <div class="sbw-album-card">
@@ -380,7 +417,7 @@
     </div>
 
     <!-- Week 8 -->
-    <div class="sbw-week">
+    <div class="sbw-week" id="week-8">
       <h2>Week 8</h2>
 
       <div class="sbw-album-card">
