@@ -138,14 +138,8 @@
     margin-top: 1.5rem;
   }
 
-  @media (max-width: 640px) {
-    .sbw-hero {
-      padding: 1.25rem 1.2rem 1.5rem;
-    }
-    .sbw-hero-photo img {
-      max-width: 210px;
-    }
-  }  .sbw-nav {
+  /* NAV BAR */
+  .sbw-nav {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem 1rem;
@@ -171,9 +165,23 @@
     margin-right: 0.25rem;
   }
 
+  @media (max-width: 640px) {
+    .sbw-hero {
+      padding: 1.25rem 1.2rem 1.5rem;
+    }
+    .sbw-hero-photo img {
+      max-width: 210px;
+    }
+  }
 </style>
 
 <div class="sbw-wrapper">
+
+  <!-- Hero -->
+  <section class="sbw-hero">
+    ...
+  </section>
+
   <nav class="sbw-nav">
     <span class="sbw-nav-label">Jump to:</span>
     <a href="#week-1">Week 1</a> ·
@@ -186,6 +194,12 @@
     <a href="#week-8">Week 8</a> ·
     <a href="about.html">About Us</a>
   </nav>
+
+  <!-- Weekly Albums -->
+  <section>
+    <h2 class="sbw-section-title">🎧 Weekly Album Letters</h2>
+    ...
+
 
   <!-- Hero -->
   <section class="sbw-hero">
