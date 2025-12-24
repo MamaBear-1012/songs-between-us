@@ -1,4 +1,74 @@
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Week 10 — Kayla — Everything So Far</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f6f5fb;
+      color: #111827;
+      margin: 0;
+    }
+
+    .sbw-wrapper {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1rem 4rem;
+    }
+
+    .sbw-card {
+      background: #ffffff;
+      border-radius: 18px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 14px 35px rgba(15, 23, 42, 0.06);
+      padding: 1.75rem 1.9rem;
+    }
+
+    .sbw-topnav {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .sbw-topnav a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .sbw-topnav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin: 0 0 0.25rem;
+    }
+
+    .sbw-sub {
+      color: #4b5563;
+      margin: 0 0 1.25rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0 0 0.95rem;
+    }
+
+    .sbw-sign {
+      margin-top: 1.25rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sbw-wrapper">
+
+    <div class="sbw-topnav">
+      <a href="../index.html">← Back to Weekly Albums</a>
+    </div>---
 week: 2
 picked_by: Kayla
 album: A Black Mile To The Surface
